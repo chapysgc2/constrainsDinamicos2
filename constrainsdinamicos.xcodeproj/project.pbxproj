@@ -29,25 +29,7 @@
 		82C488AF2CC5F0F80017F54A /* constrainsdinamicosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = constrainsdinamicosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		82C488B72CC5F0F80017F54A /* Exceptions for "constrainsdinamicos" folder in "constrainsdinamicos" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 82C4888B2CC5F0F60017F54A /* constrainsdinamicos */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		82C4888E2CC5F0F60017F54A /* constrainsdinamicos */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				82C488B72CC5F0F80017F54A /* Exceptions for "constrainsdinamicos" folder in "constrainsdinamicos" target */,
-			);
-			path = constrainsdinamicos;
-			sourceTree = "<group>";
-		};
 		82C488A82CC5F0F80017F54A /* constrainsdinamicosTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = constrainsdinamicosTests;
@@ -88,7 +70,6 @@
 		82C488832CC5F0F60017F54A = {
 			isa = PBXGroup;
 			children = (
-				82C4888E2CC5F0F60017F54A /* constrainsdinamicos */,
 				82C488A82CC5F0F80017F54A /* constrainsdinamicosTests */,
 				82C488B22CC5F0F80017F54A /* constrainsdinamicosUITests */,
 				82C4888D2CC5F0F60017F54A /* Products */,
@@ -119,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				82C4888E2CC5F0F60017F54A /* constrainsdinamicos */,
 			);
 			name = constrainsdinamicos;
 			packageProductDependencies = (
